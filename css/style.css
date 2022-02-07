@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit; /* наследование цвета у родителя */
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-left: 16px;
+  padding-right: 43px;
+}
+
+.header__menu {
+  margin-top: 16px;
+}
+
+.header__menu-list {
+  display: flex;
+}
+
+/* способ обратиться к соседям, кроме первого */
+.header__menu-item + .header__menu-item {
+  margin-left: 30px;
+}
+
+.header__menu-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18;
+  line-height: 21.09px;
+  color: #001e64;
+}
+
+.header__menu-link:hover {
+  border-bottom: 1px solid #001e64;
+}
+
+.header__phone {
+  margin-top: 11px;
+}
+
+.header__content {
+  background-image: url(../images/header_bg.png);
+}

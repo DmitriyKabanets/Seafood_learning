@@ -63,4 +63,33 @@ body {
 
 .header__content {
   background-image: url(../images/header_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__content-title {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 95px;
+  color: #001e64;
+  max-width: 589px;
+  padding-top: 200px;
+  padding-left: 112px;
+  margin-bottom: 130px;
+}
+
+.header__content-slider {
+  max-width: 522px;
+  padding-left: 112px;
+  padding-top: 57px;
+  padding-bottom: 135px;
+}
+
+.header__content-slider-text {
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
 }
